@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 130px;
+}
+
+.content, .signin, .signup {
+  margin: 10px;
+  padding: 10px 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.signin {
+  background-color: gray;
+  color: blue;
+}
+
+.signup {
+  background-color: gray;
+  color: orange;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content, .signin, .signup {
+  background-color: red;
+  color: black;
+  font-size: 30px;
+}
+
+.content {
+  background-color: gray;
+}

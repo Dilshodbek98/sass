@@ -1,0 +1,18 @@
+%common {
+   margin: 10px;
+  padding: 10px 20px;
+  width: fit-content;
+}
+
+.signin, .signup{
+ @extend %common;
+}
+
+.signin{
+  background-color: $colorSecondary;
+  color: $colorPrimary;
+}
+.signup{
+  background-color: $colorSecondary;
+  color: $colorWarning;
+}

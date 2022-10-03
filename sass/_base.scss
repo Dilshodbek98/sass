@@ -1,0 +1,10 @@
+//baarcha componentga tegishli dizayn atributlar turadi
+$colorPrimary: blue;
+$colorSecondary: gray;
+$colorWarning: orange;
+
+
+@mixin color($color1, $color2){
+  background-color: $color1;
+  color: $color2;
+}
